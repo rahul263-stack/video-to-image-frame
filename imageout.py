@@ -21,7 +21,7 @@ while(True):
     print ('Creating...' + name)
     cv2.imwrite(name, frame)
 
-    # To stop duplicate images
+    # command To stop duplicate images
     currentFrame += 1
 
 
